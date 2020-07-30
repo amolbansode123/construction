@@ -1,0 +1,118 @@
+.bck{
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.8;
+    width: 1360px;
+    height: 100vh;
+    z-index: -1;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    color: whitesmoke;
+    text-decoration: overline blue;
+    left: 34px;
+    top: 15px;
+    
+
+}
+.mid{
+    position: absolute;
+    width: 45%;
+    margin: 5px auto;
+    font-size: 20px;
+    color: white;
+    top: -10px;
+    left: 850px;
+    /* border: 2px solid green;    */
+}
+.nav li a{
+    text-decoration: none;
+    
+}
+.nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    
+}
+.nav li a{
+    color: white;
+}
+.nav li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(187, 180, 180);
+
+}
+#title{
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 37%;  
+}
+.para h3{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 2%;
+}
+.btn{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+
+}
+/* #sub{
+    text-decoration: none;
+    font-family: none;
+    text-align: center;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 2px;
+    font-size: 15px;
+    width: 10%;
+    height: 50%; 
+ } */
+
+ /* .myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 45%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} */
